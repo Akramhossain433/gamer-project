@@ -584,14 +584,15 @@ footer {
 
     .footer-short p,
     .small-item small {
-        flex-basis: 50%;
         text-align: center;
     }
 
     .body{
         margin: 20px auto;
     }
-    
+    header,main,footer{
+        margin: auto;
+    }
 }
 
 
