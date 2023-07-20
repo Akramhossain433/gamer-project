@@ -8,7 +8,6 @@
 body {
     font-family: 'Work Sans';
     font-size: 16px;
-    max-width: 1920px;
     margin: auto;
 }
 
@@ -590,7 +589,7 @@ footer {
     }
 
     .body{
-        margin: 20px;
+        margin: 20px auto;
     }
     
 }
