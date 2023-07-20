@@ -473,15 +473,14 @@ footer {
     .banner-pic img,
     .fourth-section img,
     .last-banner img{
-        max-width: 400px;
+        width: 300px;
         margin: 10px auto;
     }
     .first-section{
         margin: 10px auto;
     }
-    .nav-box div{
-        margin: auto;
-        text-align: center;
+    .combine-nav{
+        margin: 0px;
     }
     .banner, .fourth-section-container{
         flex-direction: column-reverse;
@@ -494,7 +493,7 @@ footer {
     .footer-short, .icon-pic{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        margin-left: auto;
+        margin-left:0 auto;
     }
 
     .third-section-heading{
@@ -506,11 +505,22 @@ footer {
         display: none;
     }
     nav{
-        margin: 0 auto;
+        margin:0 auto;
         justify-content: center;
     }
+    .last-banner-content{
+        margin: 0px;
+        text-align: center;
+    }
+    section{
+        margin: 10px 20px;
+    }
+    .carear-btn{
+        margin-bottom: 20px;
+    }
+  
 
-
+    
 
 
 }
