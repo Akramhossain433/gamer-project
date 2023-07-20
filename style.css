@@ -8,7 +8,10 @@
 body {
     font-family: 'Work Sans';
     font-size: 16px;
+    max-width: 1920px;
+    margin: auto;
 }
+
 
 /*header nav*/
 header {
@@ -180,7 +183,9 @@ nav li {
     margin: 0;
     text-align: center;
 }
-
+.hover-image{
+    max-width: 100%;
+}
 .different {
     color: var(--large-heading-color);
 }
@@ -304,7 +309,7 @@ nav li {
     text-align: left;
 }
 
-.carton-with-cat {
+.carton-with-cat img{
     position: relative;
     bottom: 300px;
     left: 550px;
@@ -333,6 +338,7 @@ nav li {
     gap: 30px;
     margin: 120px 240px;
 }
+
 
 .last-section div:hover {
     border: 5px solid var(--span-color);
@@ -470,6 +476,7 @@ footer {
         margin: 0;
         gap: 0;
     }
+
     .banner-pic img,
     .fourth-section img,
     .last-banner img{
@@ -496,14 +503,14 @@ footer {
         margin-left:0 auto;
     }
 
-    .third-section-heading{
+    /*.third-section-heading{
         text-align: center;
         margin: 0 auto;
     }
     .second-section,.third-section{
         visibility: collapse;
         display: none;
-    }
+    }*/
     nav{
         margin:0 auto;
         justify-content: center;
@@ -520,7 +527,77 @@ footer {
     }
   
 
-    
+    /*.third-section{
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .third-section-heading h1,
+    .third-section-heading p,
+    .girl>img {
+        text-align: center;
+        margin: 0;
+        padding: 20px;
+    }
+
+    .girl>img{
+        max-width: 80%;
+        margin-right: 70px;
+    }
+
+    .carton-with-cat img {
+        bottom: 0;
+        left: 500px;
+        max-width: 50%;
+    }*/
 
 
+
+    .third-section {
+        flex-direction: column-reverse;
+        gap: 40px;
+        margin: 120px 20px 0;
+    }
+
+    .girl>img {
+        margin-right: 70px;
+        padding-top: 0;
+        max-width: 80%;
+    }
+
+    .carton-with-cat img{
+        left: 100px;
+        bottom: 200px;
+        max-width: 50%;
+    }
+
+
+
+    .second-section {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .second-section-heading h1,
+    .second-section-heading p,
+    .horse-rider>img {
+        text-align: center;
+        margin: 0;
+        padding: 20px;
+    }
+    .horse-rider>img{
+        max-width: 80%;
+        margin-left: 70px;
+    }
+
+    .carton img {
+        bottom: 250px;
+        right: 100px;
+        max-width: 50%;
+    }
+
+
+  
 }
