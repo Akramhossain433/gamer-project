@@ -500,20 +500,17 @@ footer {
     .footer-short, .icon-pic{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        align-items: center;
         margin-left:0 auto;
     }
 
-    /*.third-section-heading{
-        text-align: center;
-        margin: 0 auto;
-    }
-    .second-section,.third-section{
-        visibility: collapse;
-        display: none;
-    }*/
     nav{
-        margin:0 auto;
+        margin:0 auto ;
         justify-content: center;
+        padding-bottom: 50px;
+    }
+    .developer{
+        padding-bottom: 40px;
     }
     .last-banner-content{
         margin: 0px;
@@ -525,32 +522,6 @@ footer {
     .carear-btn{
         margin-bottom: 20px;
     }
-  
-
-    /*.third-section{
-        flex-direction: column;
-        align-items: center;
-        margin: 0;
-    }
-
-    .third-section-heading h1,
-    .third-section-heading p,
-    .girl>img {
-        text-align: center;
-        margin: 0;
-        padding: 20px;
-    }
-
-    .girl>img{
-        max-width: 80%;
-        margin-right: 70px;
-    }
-
-    .carton-with-cat img {
-        bottom: 0;
-        left: 500px;
-        max-width: 50%;
-    }*/
 
 
 
@@ -599,5 +570,30 @@ footer {
     }
 
 
-  
+    .footer-heading {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-short,
+    .small-item,
+    .icon-pic img {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer-short p,
+    .small-item small {
+        flex-basis: 50%;
+        text-align: center;
+    }
+
+    .body{
+        margin: 20px;
+    }
+    
 }
+
+
+  
